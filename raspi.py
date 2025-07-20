@@ -38,5 +38,5 @@ def predict_audio(fn):
 
     return Audio(data= audio, rate= s_rate)
 
-see= predict_audio(fn)
+see= predict_audio('sample/dog_barking_1.wav')
 see
